@@ -1,0 +1,24 @@
+.container{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    .container-wrapper{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        height: auto;
+
+   .logos{
+        height: 30px;
+        width: 2rem;
+    }
+    .Navigasi{
+        border: 1px solid black;
+        width: 40%;
+        height: fit-content;
+    }
+}
+
+}

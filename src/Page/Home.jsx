@@ -1,10 +1,12 @@
 import React from 'react'
-import Header from '../Component/Headers'
+import { Header } from '../Component/Componen' 
 
-export default function Home() {
+function Home() {
   return (<>
-    <div id="home" className='max-w-full bg-pink-300'>
+    <div>
       <Header />
     </div>
     </>)
 };
+
+export default Home;
