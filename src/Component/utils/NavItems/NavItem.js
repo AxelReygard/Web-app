@@ -1,15 +1,15 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import './Navitem.scss'
+import './Navitem.css'
 
 
-function NavItem({goto, name}) {
-    const gotos = goto;
+const NavItem = (props)=>{
+    //const gotos = goto;
   return (
+    <>
     <li>
-        <Link to={`/${gotos} `}>{name}</Link>
+        <a href={`${props.gotos}`}>{props.name}</a>
     </li>
-  )
+  </>)
 }
 
 

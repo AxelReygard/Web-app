@@ -1,24 +1,40 @@
-.container{
-    height: auto;
+header{
+    overflow: hidden;
+    height: 10vh;
     width: 100vw;
     display: flex;
     justify-content: center;
-    background-color: blue;
+    background-color: var(--main-Color);
     .container-wrapper{
         display: flex;
         justify-content: space-between;
         width: 80%;
         height: auto;
+        align-items: center;
 
    .logos{
-        height: 30px;
-        width: 2rem;
+        height: 10vh;
+        width: auto;
+        align-items: center;
     }
     .Navigasi{
-        border: 1px solid black;
-        width: 40%;
-        height: fit-content;
+        display: flex;
+        position: relative;
+        width: 48%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
     }
 }
 
+}
+@media only screen and (max-width: 1200px ){
+    header{
+        .container-wrapper{
+            .Navigasi{
+                height: auto;
+                width: auto;
+            }
+        }
+    }
 }

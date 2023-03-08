@@ -1,7 +1,7 @@
 import Home from "./Home";
+import About from "./section/About";
 
 
 
 
-
-export { Home };
+export { Home, About };

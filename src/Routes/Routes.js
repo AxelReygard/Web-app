@@ -1,17 +1,15 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../Page/Home"
-
+import { Header } from "../Component/Componen";
 
 
 const Router = ()=>{
     return(
         <BrowserRouter>
-            <Routes path="/">
-                    <Route
-                        path="/"
-                        element={<Home/>}
-                    />
+            <Header/>
+            <Routes >
+                     <Route path="/" element={<Home/>} />
             </Routes>
         </BrowserRouter>
     )

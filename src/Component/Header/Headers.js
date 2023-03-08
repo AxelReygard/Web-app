@@ -5,17 +5,16 @@ import "./header.scss"
 
 function Header() {
   return (<>
-      <div className="container">
+      <header>
         <div className="container-wrapper">
           <div className="logos">
                   <Logo name="AxelRey"/>
           </div>
           <div className='Navigasi'>
-              <NavBar untuk= "#Home" >Home</NavBar>
-              <NavBar untuk= "#About" >About</NavBar>
+                <NavBar/>
           </div>
           </div>
-      </div>
+      </header>
   </>)
 };
 
